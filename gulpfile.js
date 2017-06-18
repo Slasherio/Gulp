@@ -64,7 +64,7 @@ gulp.task('watch', ['browser-sync', 'sass', 'scripts', 'hint', 'babel'], functio
 });
 
 gulp.task('clean', function() {
-    return del.sync('dest'); // Delete folder dist before build
+    return del.sync('dest'); // Delete folder dest before build
 });
 
 gulp.task('build', ['clean', 'sass', 'scripts'],
