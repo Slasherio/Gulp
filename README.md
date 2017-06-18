@@ -26,5 +26,9 @@ Tasks:
 
 :heavy_check_mark:[imagemin-pngquant](https://www.npmjs.com/package/imagemin-pngquant)
 
+------------
 
 
+>❗️❗️ Folder **src/** assigned for developing content. In this folder you must write your code.  
+
+>❗️❗️ Folder **dest/** assigned for production. This folder contained  minified, converted, optimized files. After developing in folder **src/** enter command ```gulp build```. This command delete/overwrite folder and push converted files. 
