@@ -7,6 +7,7 @@
 Tasks:
 
 :heavy_check_mark:[Babel](https://www.npmjs.com/package/gulp-babel)
+❗️❗️ [Babel Presets](http://babeljs.io/docs/plugins/#presets)
 
 :heavy_check_mark:[Sass](https://www.npmjs.com/package/gulp-sass)
 
