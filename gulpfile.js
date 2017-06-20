@@ -27,10 +27,12 @@ gulp.task('hint', function() {
 });
 
 //Task for babel JS
-gulp.task('babel', function() {
-    return gulp.src('src/js/**/*.js')
-        .pipe(babel())
-        .pipe(gulp.dest("src/js"));
+gulp.task('babel', () => {
+    return gulp.src('src/js/app.js')
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(gulp.dest('dest/js'));
 });
 
 
